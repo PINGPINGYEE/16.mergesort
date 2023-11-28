@@ -1,5 +1,6 @@
 # 16.mergesort
 ### 반복적 방법
-![2](https://github.com/PINGPINGYEE/16.mergesort/assets/30267171/fc534be4-7bde-4a61-80d2-f21cf7a0b2eb)
+![3](https://github.com/PINGPINGYEE/16.mergesort/assets/30267171/e0fcc886-fb87-4b11-8c07-ded1b8f4191b)
+
 ### 재귀적 방법
-![1](https://github.com/PINGPINGYEE/16.mergesort/assets/30267171/6d08fd59-0572-4c7a-b5b5-caf6d3f330d7)
+![4](https://github.com/PINGPINGYEE/16.mergesort/assets/30267171/48053144-30bd-4e69-ad18-0de4d2058611)
