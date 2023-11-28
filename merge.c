@@ -180,14 +180,23 @@ void merge_sort(int list[], int left, int right) {
 }
 
 int main() {
+    int cycleCount = 0;
     int i, n = MAX_SIZE;
     int list[MAX_SIZE];
 
     srand(time(NULL)); // 랜덤 시드 설정
 
     for (run_count = 1; run_count <= 20; run_count++) {
+        cycleCount++;
         for (i = 0; i < MAX_SIZE; i++) {
             list[i] = rand() % 100;
+        }
+        if (cycleCount == 1) {
+            printf("Origin list : ");
+            for (i = 0; i < MAX_SIZE; i++) {
+                printf("%d ", list[i]);
+            }
+            printf("\n");
         }
 
         merge_sort(list, 0, n - 1);
