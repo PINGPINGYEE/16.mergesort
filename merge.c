@@ -89,7 +89,7 @@ int main()
     int cycleCount = 0;
     srand(time(NULL));
 
-    int totalMoveCount = 0, totalCompareCount = 0;
+    int totalMoveCount = 0, totalCompareCount = 0; // 총 이동횟수와 총 비교횟수
 
     for (int repeat = 0; repeat < 20; repeat++) {
         cycleCount++;
